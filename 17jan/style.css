@@ -1,0 +1,126 @@
+#eg1{
+    /* Width */
+    /* Absolute Values */
+    background-color: blue;
+    /* width: 400px; */
+    /* width: 15cm; */
+    /* width: 140mm; */
+    /* Relative Values  */
+    width: 50%;
+}
+
+#eg2{
+    width:400px;
+    height: 400px;
+    background-color: green;
+}
+
+#eg3{
+    width: 50%;
+    height: 100px;
+    background-color: red;
+}
+#eg4{
+    width: 50vw;
+    height: 50px;
+    background-color: pink;
+}
+
+#eg5{
+    width: 50%;
+    max-width: 400px;
+    min-width:370px;
+    background-color: pink;
+    height: 100px;
+}
+
+#eg6{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    /* margin: 20px; */
+    /* 1. one value */
+    /* margin: 50px; */
+    /* In all directions */
+    /* Two values */
+    /* margin: 20px 80px; */
+    /* margin: y-axis x-axis */
+    /* Three values */
+    /* margin: 10px 20px 50px; */
+    /* margin: top x-axis bottom */
+    /* Four values */
+    /* margin: 10px 20px 30px 40px; */
+    /* margin: top right bottom left */
+
+    /* x-axis */
+    /* margin-inline: 40px; */
+
+    /* margin: auto */
+    /* margin: auto; */
+    /* Direction based margin props  */
+    /* margin-left: 20px;
+    margin-right: 50px;
+    margin-top: 100px;
+    margin-bottom: 20px; */
+    /* margin: 50px; */
+}
+#eg7{
+    /* width: 200px;
+    height: 200px;
+    background-color: pink;
+    margin: 50px; */
+}
+
+#eg8{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    /* one value */
+    /* padding: 20px; */
+    /* All 4 directions */
+    /* two values */
+    /* padding: 50px 10px; */
+    /* padding: y-axis x-axis */
+    /* Three values */
+    /* padding: 10px 20px 30px; */
+    /* padding: top x-axis bottom */
+    /* Four Values */
+    /* padding: 10px 20px 30px 40px; */
+
+    /* padding-inline: 20px; */
+    /* singular values or  Direction based padding props  */
+    /* padding-left: 20px;
+    padding-top: 40px;
+    padding-right: 60px;
+    padding-bottom: 100px; */
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+
+#eg9{
+    width: 300px;
+    height: 300px;
+    /* border-top-width: 15px;
+    border-top-color:red;
+    border-top-style: double;
+
+    border-left-width: 10px;
+    border-left-color:blue;
+    border-left-style: solid; */
+    /* border-width: 20px;
+    border-style: solid;
+    border-color: red; */
+    border-radius: 50%;
+    border: 20px solid green;
+}
+
+#eg10{
+    width: 400px;
+    height: 400px;
+    border: 5px solid blue;
+    background-image: url("https://images.unsplash.com/photo-1705320678447-a7a76063d888?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-position: 100px 100px;
+}

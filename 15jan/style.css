@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* 
+    applying box-sizing
+    applying universal fonts
+     */
+}
+/* h2{
+    color: red;
+} */
+/* h3{
+    background-color: green;
+}
+#eg1{
+    background-color: yellow;
+} */
+
+#my-box>div>div>h2{
+    color:blueviolet;
+}

@@ -1,0 +1,35 @@
+#eg1{
+    
+}
+
+#eg2{
+    line-height: 5;
+}
+
+#eg3{
+    text-align: right;
+}
+#eg4{
+    text-align: center;
+}
+#eg5{
+    text-align: justify;
+}
+#eg6{
+    text-decoration: blue underline;
+    text-transform:uppercase ;
+}
+#eg7{
+    text-decoration: overline;
+    text-transform: lowercase;
+}
+#eg8{
+    text-decoration: line-through;
+    text-transform: capitalize;
+}
+
+
+#eg9{
+    text-shadow: 0px 0px 5px purple;
+    color: white;
+}
