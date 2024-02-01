@@ -1,0 +1,52 @@
+#eg1{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    transition: all 4000ms ease-out 5s;
+}
+/* 1. Transition on hover */
+#eg1:hover{
+    background-color: red;
+    width: 400px;
+}
+
+/* Transition on click(Opacity) */
+#eg2{
+    background-color: red;
+    border: none;
+    width: 200px;
+    height: 50px;
+    color: white;
+    border-radius: 5px;
+    transition: opacity 2s ease;
+}
+#eg2:hover{
+    opacity: 0.8;
+}
+#eg2:active{
+    opacity: 0.3;
+}
+/* Transition on Delay(border color) */
+
+#eg3{
+    width: 200px;
+    height: 200px;
+    border: 5px solid black;
+    transition: border 0.5s ease 1s, width 1s ease-in;
+}
+
+#eg3:hover{
+    border: 5px solid red;
+    width: 400px;
+}
+
+#eg4{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    transition: all 1s linear;
+}
+
+#eg4:hover{
+    transform: rotate(360deg);
+}
